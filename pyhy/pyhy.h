@@ -88,7 +88,7 @@ int hydro_hash_hash(uint8_t *out, size_t out_len, const void *in_, size_t in_len
 
 /* ---------------- */
 
-#define hydro_secretbox_CONTEXTBYTES 8
+#define hydro_secretbox_CONTEXTBYTES 43
 #define hydro_secretbox_HEADERBYTES 36 // (20 + 16)
 #define hydro_secretbox_KEYBYTES 32
 #define hydro_secretbox_PROBEBYTES 16
